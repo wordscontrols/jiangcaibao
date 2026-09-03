@@ -14,12 +14,27 @@
 </head>
 <body>
 <h1>蒋财报 隐私政策</h1>
-<p>生效日期：2026 年 8 月 20 日</p>
+<p>生效日期：2026 年 9 月 4 日（此前版本：2026 年 8 月 20 日）</p>
 <p><strong>本 App 不收集、不存储、不传输任何用户数据。</strong>
 没有账号系统、没有分析统计、没有第三方 SDK、没有广告。</p>
-<p>所有财报数据请求由你的设备<strong>直接</strong>发往各证券监管机构的公开接口：
-美国证券交易委员会（SEC EDGAR）、欧盟 filings.xbrl.org、巨潮资讯与沪深港交易所的公告接口、
-韩国金融监督院 OPEN DART。请求不经过开发者或任何中间服务器。</p>
+<p>所有财报数据请求由你的设备<strong>直接</strong>发往各市场官方（或官方指定）的公开披露接口，
+<strong>不经过开发者的服务器</strong> —— 开发者没有任何服务器，也收不到任何数据。完整清单：</p>
+<ul>
+<li><strong>美股</strong> —— 美国证券交易委员会 SEC EDGAR（www.sec.gov / data.sec.gov）</li>
+<li><strong>欧洲/英国</strong> —— XBRL 国际组织的 ESEF 申报库（filings.xbrl.org）</li>
+<li><strong>A股/港股</strong> —— 巨潮资讯（www.cninfo.com.cn / static.cninfo.com.cn）、
+上交所（query.sse.com.cn / www.sse.com.cn）、深交所（www.szse.cn / disc.szse.cn）、
+港交所披露易（www1.hkexnews.hk）</li>
+<li><strong>韩股</strong> —— 金融监督院 OPEN DART（opendart.fss.or.kr，仅在你自己填了密钥时使用）</li>
+<li><strong>巴西</strong> —— 证监会 CVM 开放数据（dados.cvm.gov.br）</li>
+<li><strong>台股</strong> —— 台湾证交所与公开资讯观测站（openapi.twse.com.tw / doc.twse.com.tw）</li>
+<li><strong>印度</strong> —— 孟买证交所（www.bseindia.com / api.bseindia.com）</li>
+<li><strong>澳洲</strong> —— 澳交所的公告平台（asx.api.markitdigital.com / cdn-api.markitdigital.com）。
+如实说明：这两个域名由 Markit Digital 运营 —— 澳交所把公告分发服务交给它承载，
+澳交所自己的公告网页调用的也是同一接口；它不是开发者的服务器</li>
+<li><strong>泰国</strong> —— 泰国证监会（market.sec.or.th）</li>
+<li><strong>沙特</strong> —— 沙特交易所（www.saudiexchange.sa）</li>
+</ul>
 <p>两项你主动填写的信息只存在你自己的设备上：</p>
 <ul>
 <li><strong>联系邮箱</strong>（可选）：按 SEC 的接口合规要求随请求发送给 SEC 的服务器，不发给任何其他方；</li>
